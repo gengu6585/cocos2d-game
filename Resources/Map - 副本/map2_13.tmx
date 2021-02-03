@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="70" tileheight="70" nextobjectid="27">
+ <properties>
+  <property name="hp" value="490"/>
+  <property name="speed" value="500"/>
+ </properties>
+ <tileset firstgid="1" name="222" tilewidth="70" tileheight="70" tilecount="56">
+  <image source="222.png" width="560" height="490"/>
+ </tileset>
+ <layer name="bgLayer" width="15" height="10">
+  <data encoding="base64">
+   BwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAA
+  </data>
+ </layer>
+ <layer name="walkLayer" width="15" height="10">
+  <data encoding="base64">
+   MQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAxAAAAMQAAAAAAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAyAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAxAAAAMQAAAAAAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAyAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAxAAAAMQAAAAAAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAyAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAxAAAAMQAAAAAAAAAyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxAAAAMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAAAAAAAxAAAAMQAAAAAAAAAyAAAAMgAAAAAAAAAyAAAAMgAAADIAAAAyAAAAMgAAADIAAAAAAAAAAAAAAAAAAAAxAAAAMQAAAAAAAAAAAAAAAAAAAAAAAAAyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAA
+  </data>
+ </layer>
+ <objectgroup name="object0">
+  <object id="1" name="player" x="210" y="350" width="70" height="70">
+   <properties>
+    <property name="hp" value="510"/>
+    <property name="speed" value="500"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="object1">
+  <object id="2" name="key" x="490" y="560" width="70" height="70"/>
+  <object id="3" name="exit" x="910" y="560" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup name="object2">
+  <object id="4" name="box_3" x="210" y="70" width="70" height="70"/>
+  <object id="5" name="box_2" x="210" y="560" width="70" height="70"/>
+  <object id="6" name="box_1" x="630" y="350" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup name="object4">
+  <object id="24" name="monster_3" x="70" y="70" width="70" height="70">
+   <properties>
+    <property name="dirX" value="1"/>
+    <property name="dirY" value="0"/>
+    <property name="path" value="monster_0.png"/>
+    <property name="reverse" value="-1"/>
+    <property name="speed" value="100"/>
+   </properties>
+  </object>
+  <object id="25" name="monster_2" x="770" y="420" width="70" height="70">
+   <properties>
+    <property name="dirX" value="0"/>
+    <property name="dirY" value="1"/>
+    <property name="path" value="monster_1.png"/>
+    <property name="reverse" value="-2"/>
+    <property name="speed" value="100"/>
+   </properties>
+  </object>
+  <object id="26" name="monster_1" x="280" y="420" width="70" height="70">
+   <properties>
+    <property name="dirX" value="1"/>
+    <property name="dirY" value="0"/>
+    <property name="path" value="monster_0.png"/>
+    <property name="reverse" value="-1"/>
+    <property name="speed" value="100"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="object5"/>
+ <objectgroup name="object3">
+  <object id="15" name="trap_2" x="910" y="420" width="70" height="70"/>
+  <object id="17" name="trap_1" x="770" y="280" width="70" height="70"/>
+  <object id="19" name="trap_0" x="910" y="490" width="70" height="70"/>
+ </objectgroup>
+</map>

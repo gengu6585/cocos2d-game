@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="10" tilewidth="70" tileheight="70" nextobjectid="14">
+ <tileset firstgid="1" name="map" tilewidth="70" tileheight="70" tilecount="4">
+  <image source="map.png" width="140" height="140"/>
+ </tileset>
+ <layer name="bgLayer" width="16" height="10">
+  <data encoding="base64">
+   AQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAA==
+  </data>
+ </layer>
+ <layer name="walkLayer" width="16" height="10">
+  <data encoding="base64">
+   BAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAQAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAACAAAAAAAAAAAAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAAAAAAAAAAAAgAAAAQAAAAEAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAA==
+  </data>
+ </layer>
+ <objectgroup name="object0">
+  <object id="1" name="player" x="210" y="280" width="70" height="70">
+   <properties>
+    <property name="hp" value="350"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="object2">
+  <object id="2" name="box_1" x="350" y="420" width="70" height="70"/>
+  <object id="3" name="box_2" x="490" y="420" width="70" height="70"/>
+  <object id="4" name="box_3" x="630" y="420" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup name="object1">
+  <object id="5" name="key" x="840" y="70" width="70" height="70"/>
+  <object id="6" name="exit" x="210" y="70" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup name="object3">
+  <object id="7" name="trap_0" x="70" y="280" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup name="object4">
+  <object id="12" name="monster_0" x="280" y="560" width="70" height="70">
+   <properties>
+    <property name="dirX" value="1"/>
+    <property name="dirY" value="0"/>
+    <property name="path" value="monster_0.png"/>
+    <property name="reverse" value="-1"/>
+    <property name="speed" value="100"/>
+   </properties>
+  </object>
+  <object id="13" name="monster_0" x="280" y="140" width="70" height="70">
+   <properties>
+    <property name="dirX" value="1"/>
+    <property name="dirY" value="0"/>
+    <property name="path" value="monster_0.png"/>
+    <property name="reverse" value="-1"/>
+    <property name="speed" value="100"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="object5">
+  <object id="10" name="transfer0_0" x="490" y="70" width="70" height="70"/>
+  <object id="11" name="transfer1_0" x="420" y="350" width="70" height="70"/>
+ </objectgroup>
+</map>
